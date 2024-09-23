@@ -183,6 +183,8 @@ You are going to be continuing development of this breakout game.  Please do a d
 
 Release: breakout013.py
 
+Note: Started new conversation
+
 27.
 You are going to be continuing the development of the following Breakout game.  There's one minor issue I'd like you to fix - when a new level starts I notice that any falling power ups from the last level aren't removed.  Really dig into that functionality and see how you might go about fixing it.  Also I'd like you to use your creativity to think of ways to enhance the gameplay experience for the player.  Keep in mind I don't have access to any external audio or video assets so anything like that will have to be kept native to python.  Walk through your development approach, and when you're done, please give me the fully updated source code.
 
@@ -193,3 +195,40 @@ Release: breakout014.py
 
 29.
 Brilliant!  I'm not always sure what type of power up I'm getting when I get one - can you add a brief message that quickly fades out that tells the player what type of power up they just got?  
+
+Note: Started new conversation
+
+30.
+You are going to be continuing development of the following Breakout game.  
+
+First, a couple tasks for you to work on:
+
+A. The power up text often overlaps if I get several in sequence.  Can you have those text messages quickly move down as well as fade so they don't overlap if I get several all at once or in quick succession? 
+B. I'm noticing some of the power-ups not getting applied perhaps?  Really dig into the logic and see if there's something as issue there. 
+
+Dig into the details of how you'd approach figuring out and solving these two issues.  When you're finished, please return the complete updated source code.
+
+Note: Started new conversation
+
+31.
+You are going to be continuing development of the following Breakout game.  I have a few tasks to get you started:
+
+A. I get repeated log messages about Shrinking Paddle.  For one, I don't need to see this particular message, but seeing it repeat over and over again in the logs suggests something might not be working right regarding the powerups.
+B. The powerup messages should be displayed a bit lower on the screen.
+C. Any time the player gets a power-up, it replaces any currently active power-up.  Power-ups like additional lives that aren't "active" and are simply one-off events can be ignored for this.
+D. See if there's anything you can do to prevent power up messages from overlapping.  Right now they scroll up, but if I get several in quick succession the messages still overlap.  Maybe if one is still being displayed in the area where a new should appear, the older ones should be shifted up?
+
+So put on your dev hat while digging into the code and implementing these changes.  When you're done, please produce fully updated source code.
+
+Note: started new conversation
+
+32.
+A. The Slowed-Ball power up does not actually slow the ball down.
+B. Can you move the power up messages a bit further down the screen?
+C. Any active powerups should be removed at the start of a new level.
+D. Have the power up messages scroll down instead of up.
+E. Shrunk paddle power ups should only have a transient effect, similar to Large paddle power ups.
+F. You cannot have 2 active powerups at the same time (for instance shrunk paddle and laser paddle).  Any new powerup the player gets takes the place of the previous active one.
+
+Release: breakout015.py
+
