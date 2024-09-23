@@ -182,3 +182,14 @@ Note: Started new conversation
 You are going to be continuing development of this breakout game.  Please do a deep-dive into the explosive blocks.  It seems (but maybe something else is going on) that the ball sometimes radically changes position after exploding a block.  The ball should be bouncing off these explosive blocks as normal.  I'd also like you to try and spice up the explosive blocks with fancier graphics/animations and sounds.  Keep in mind I have no external assets available to work with so everything has to stay native to python.  Produce fully updated source code when you're finished.
 
 Release: breakout013.py
+
+27.
+You are going to be continuing the development of the following Breakout game.  There's one minor issue I'd like you to fix - when a new level starts I notice that any falling power ups from the last level aren't removed.  Really dig into that functionality and see how you might go about fixing it.  Also I'd like you to use your creativity to think of ways to enhance the gameplay experience for the player.  Keep in mind I don't have access to any external audio or video assets so anything like that will have to be kept native to python.  Walk through your development approach, and when you're done, please give me the fully updated source code.
+
+28.
+Thank you.  When I cleared level 1, the level did not finish and it did not take me to level 2.  It got stuck in some kind of loop.  Here are the relevant logs from when it happened:
+
+Release: breakout014.py
+
+29.
+Brilliant!  I'm not always sure what type of power up I'm getting when I get one - can you add a brief message that quickly fades out that tells the player what type of power up they just got?  
