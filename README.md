@@ -34,7 +34,7 @@ A modern take on the classic Breakout game, implemented in Python using Pygame. 
 
 1. **Clone the Repository**
     ```bash
-    git clone https://github.com/yourusername/breakout-game.git
+    git clone https://github.com/MatthewPDingle/o1-mini-breakout.git
     cd breakout-game
     ```
 
